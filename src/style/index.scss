@@ -1,0 +1,27 @@
+@import "variable";
+
+div#app {
+  div.container {
+    div.row {
+      button {
+        background: $green;
+        border-radius: 3px;
+        border: none;
+        padding: 10px;
+        color: red;
+
+        &:hover {
+          color: green;
+        }
+        a{
+          text-decoration: none;
+          color:#ffffff;
+        }
+      }
+
+      p {
+        color: $yellow;
+      }
+    }
+  }
+}
